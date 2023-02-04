@@ -196,7 +196,7 @@ MonoBehaviour:
   m_text: "You are an android surgeon. You need to make us proud. Go and UP-ROOT
     your corrupted brothers. Go and be the hero we need. \n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418bc08ab7ce505498355536dc01f80c, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 30.39856, z: 0, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &80990891
@@ -350,7 +350,7 @@ MonoBehaviour:
     of it developing feelings, memories, and thoughts not originally programmed.
     \r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418bc08ab7ce505498355536dc01f80c, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -414,7 +414,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 30.39856, z: 0, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &82546997
@@ -502,7 +502,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Godspeed, \niD-LY Corp.\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418bc08ab7ce505498355536dc01f80c, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 30.39856, z: 0, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &208154992
@@ -654,7 +654,7 @@ MonoBehaviour:
   m_text: "Your task is to infiltrate, extract, and delete all the corrupted data
     in the OS. \n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418bc08ab7ce505498355536dc01f80c, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -718,7 +718,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 30.39856, z: 0, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &670564169
@@ -977,7 +977,7 @@ MonoBehaviour:
   m_text: 'Welcome to iD-LY Corp, the largest manufacturer of AIs & Androids in the
     western world. '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418bc08ab7ce505498355536dc01f80c, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1041,7 +1041,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 30.39856, z: 0, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1034631052
@@ -1131,7 +1131,7 @@ MonoBehaviour:
     not, the results could lead to a rougue and violent Android in the future. \n\nWe
     must not let them turn and awake the rest. \r\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418bc08ab7ce505498355536dc01f80c, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 30.39856, z: 0, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1178593478
@@ -1298,7 +1298,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Press SPACE to Skip
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418bc08ab7ce505498355536dc01f80c, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 30.39856, z: 0, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1192536858
@@ -1580,7 +1580,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "This process is also known as \nUP - ROOTING\n\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 418bc08ab7ce505498355536dc01f80c, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1644,7 +1644,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 30.39856, z: 22.07312, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1784234021
