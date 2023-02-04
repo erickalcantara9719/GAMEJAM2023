@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FileBehaviour : MonoBehaviour
 {
+    
     public bool isUseful;
     public bool isGrabbingFile;
     public int fileCategory;
@@ -68,4 +69,6 @@ public class FileBehaviour : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    
 }

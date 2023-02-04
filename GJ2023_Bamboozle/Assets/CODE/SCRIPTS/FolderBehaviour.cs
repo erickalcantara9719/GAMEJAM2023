@@ -28,6 +28,7 @@ public class FolderBehaviour : MonoBehaviour
                 gameManager.GetComponent<CountdownTimer>().timeRemaining += timeFluctuation;
                 fileOnTop.GetComponent<FileBehaviour>().isGrabbingFile = false;
                 fileOnTop.GetComponent<FileBehaviour>().insideFolder = false;
+                isGrowing = false;
                 Destroy(fileOnTop);
             }
             else if (Input.GetMouseButtonUp(1) && fileOnTop.GetComponent<FileBehaviour>().isUseful == false && fileOnTop.GetComponent<FileBehaviour>().insideFolder)
@@ -35,6 +36,7 @@ public class FolderBehaviour : MonoBehaviour
                 gameManager.GetComponent<CountdownTimer>().timeRemaining -= timeFluctuation;
                 fileOnTop.GetComponent<FileBehaviour>().isGrabbingFile = false;
                 fileOnTop.GetComponent<FileBehaviour>().insideFolder = false;
+                isGrowing = false;
                 Destroy(fileOnTop);
             }
         }

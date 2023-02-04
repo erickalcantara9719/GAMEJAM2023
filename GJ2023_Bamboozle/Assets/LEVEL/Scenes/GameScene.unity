@@ -336,6 +336,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: File
       objectReference: {fileID: 0}
+    - target: {fileID: 8055282703949755529, guid: c4873b4b2698ef4499e1d5af8daa8253, type: 3}
+      propertyPath: maxFlightX
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055282703949755529, guid: c4873b4b2698ef4499e1d5af8daa8253, type: 3}
+      propertyPath: maxFlightY
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055282703949755529, guid: c4873b4b2698ef4499e1d5af8daa8253, type: 3}
+      propertyPath: minFlightX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8055282703949755529, guid: c4873b4b2698ef4499e1d5af8daa8253, type: 3}
+      propertyPath: countdownForLeaving
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 8858344880739666462, guid: c4873b4b2698ef4499e1d5af8daa8253, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -426,6 +442,7 @@ GameObject:
   - component: {fileID: 846348858}
   - component: {fileID: 846348860}
   - component: {fileID: 846348861}
+  - component: {fileID: 846348862}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameManager
@@ -489,6 +506,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d1a6ba8466fdc1478456472f96d019a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &846348862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846348857}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6b5eb4cc4b05d84ca0a49a7100a0035, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filePrefab: {fileID: 4073620675263377050, guid: c4873b4b2698ef4499e1d5af8daa8253, type: 3}
+  respawnTime: 3
+  isPlaying: 1
 --- !u!1 &1173509648
 GameObject:
   m_ObjectHideFlags: 0
