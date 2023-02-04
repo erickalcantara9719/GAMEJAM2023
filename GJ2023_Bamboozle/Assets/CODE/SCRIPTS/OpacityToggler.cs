@@ -7,21 +7,24 @@ public class OpacityToggler : MonoBehaviour
     public Material material;
     public float interval = 1f;
 
-    private Color originalColor;
-
     private void Start()
     {
-        originalColor = material.color;
+        ResetOpacity();
         StartCoroutine(ToggleOpacity());
+    }
+
+    private void ResetOpacity()
+    {
+        material.color = new Color(material.color.r, material.color.g, material.color.b, 1);
     }
 
     private IEnumerator ToggleOpacity()
     {
         while (true)
         {
-            material.color = new Color(originalColor.r, originalColor.g, originalColor.b, 0);
+            material.color = new Color(material.color.r, material.color.g, material.color.b, 0);
             yield return new WaitForSeconds(interval);
-            material.color = originalColor;
+            material.color = new Color(material.color.r, material.color.g, material.color.b, 1);
             yield return new WaitForSeconds(interval);
         }
     }
