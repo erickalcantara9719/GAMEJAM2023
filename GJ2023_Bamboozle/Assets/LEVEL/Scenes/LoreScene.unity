@@ -500,7 +500,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Godspeed, \niD-LY Corp\n\n"
+  m_text: "Godspeed, \niD-LY Corp.\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
@@ -610,7 +610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 208154991}
-  fullText: Godspeed,  iD-LY Corp
+  fullText: Godspeed,  iD-LY Corp.
   writingSpeed: 0.1
 --- !u!1 &670564167
 GameObject:
@@ -953,7 +953,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1034631051
 MonoBehaviour:
   m_ObjectHideFlags: 0
