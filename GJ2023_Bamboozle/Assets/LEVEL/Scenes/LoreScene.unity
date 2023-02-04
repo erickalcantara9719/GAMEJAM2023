@@ -288,7 +288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1737, y: 106.650024}
+  m_AnchoredPosition: {x: 8.7471, y: 221}
   m_SizeDelta: {x: 1361.5369, y: 354.0157}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &80990893
@@ -442,7 +442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -181}
+  m_AnchoredPosition: {x: 5.1737, y: -59}
   m_SizeDelta: {x: 1232.9316, y: 265.3225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82546999
@@ -746,7 +746,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 151}
+  m_AnchoredPosition: {x: 8.7511, y: 255}
   m_SizeDelta: {x: 1232.9316, y: 265.3225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &670564171
@@ -953,7 +953,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1034631051
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1069,7 +1069,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 151}
+  m_AnchoredPosition: {x: 0, y: 255}
   m_SizeDelta: {x: 1232.9316, y: 265.3225}
   m_Pivot: {x: 0.49290547, y: 0.5}
 --- !u!114 &1034631054
@@ -1223,7 +1223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.1737, y: 106.65}
+  m_AnchoredPosition: {x: 8.7511, y: 201.67}
   m_SizeDelta: {x: 1361.5369, y: 354.0157}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1178593480
@@ -1240,7 +1240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1178593477}
   fullText: 'This process has to be done quickly and properly with minimal error.
-    If not, the results could lead to a rougue and violent Android in the future.  
+    If not, the results could lead to a rogue and violent Android in the future.  
     We must not let them turn and awake the rest.  '
   writingSpeed: 0.06
 --- !u!1 &1192536855
@@ -1442,10 +1442,10 @@ PlayableDirector:
     value: {fileID: 80990889}
   - key: {fileID: 204913988869848224, guid: 0ded65092d0ae204fa6441d358184006, type: 2}
     value: {fileID: 208154990}
-  - key: {fileID: -8875543151753869292, guid: 0ded65092d0ae204fa6441d358184006, type: 2}
-    value: {fileID: 0}
   - key: {fileID: -4848770468221480919, guid: 0ded65092d0ae204fa6441d358184006, type: 2}
     value: {fileID: 1192536855}
+  - key: {fileID: -8042103682600119843, guid: 0ded65092d0ae204fa6441d358184006, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References:
     - 94d045c0e58a53744b9d3e601cd33b65: {fileID: 208154990}
@@ -1578,10 +1578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'This process is also known as UP - ROOTING
-
-
-'
+  m_text: "This process is also known as \nUP - ROOTING\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
   m_sharedMaterial: {fileID: 7343426626145061183, guid: e1633b9c3cb57164380718415c0eb64b, type: 2}
@@ -1644,7 +1641,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 30.39856, z: 0, w: 27.865265}
+  m_margin: {x: 0, y: 30.39856, z: 22.07312, w: 27.865265}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1675,8 +1672,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000095367, y: -222}
-  m_SizeDelta: {x: 1232.9316, y: 265.3225}
+  m_AnchoredPosition: {x: 8.7511, y: -108}
+  m_SizeDelta: {x: 874.8, y: 265.3225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1784234023
 MonoBehaviour:
@@ -1691,7 +1688,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMeshPro: {fileID: 1784234020}
-  fullText: 'This process is also known as UP - ROOTING '
+  fullText: This process is also known as  UP - ROOTING
   writingSpeed: 0.06
 --- !u!1 &1887373723
 GameObject:
